@@ -1,0 +1,50 @@
+-- >> LIST Tasks
+1. Create a list of 5 colors and print it.
+2. Add a new item to a list using append().
+3. Remove an item from a list using remove().
+4. Find the length of a list using len().
+5. Print the first and last element of a list.
+6. Replace the third element in a list with a new value.
+7. Sort a list of numbers.
+8. Count how many times a value appears in a list.
+9. Create a list of 5 numbers and print the maximum number.
+10. Reverse a list without using slicing.
+
+
+-->> TUPLE Tasks
+1. Create a tuple of 5 fruits and print it.
+2. Print the second and fourth element of a tuple.
+3. Find the length of a tuple.
+4. Check if a value exists in a tuple.
+5. Convert a tuple into a list.
+6. Convert a list into a tuple.
+7. Find the index of an element in a tuple.
+8. Count how many times a value appears in a tuple.
+9. Join two tuples together.
+10. Print the last element of a tuple using negative indexing.
+
+
+-->> SET Tasks
+1. Create a set of 5 unique numbers.
+2. Add a new element to a set using add().
+3. Remove an element from a set using remove().
+4. Check if a value exists in a set.
+5. Create two sets and find their union.
+6. Find the intersection of two sets.
+7. Create a set and convert it to a list.
+8. Remove all elements from a set using clear().
+9. Find the difference between two sets.
+10. Add multiple elements to a set using update().
+
+
+-->> DICTIONARY Tasks
+1. Create a dictionary with 3 key-value pairs and print it.
+2. Add a new key-value pair to a dictionary.
+3. Remove a key from a dictionary using pop().
+4. Print all keys of a dictionary.
+5. Print all values of a dictionary.
+6. Update the value of an existing key.
+7. Check if a key exists in a dictionary.
+8. Create a dictionary and print the number of items.
+9. Create a dictionary and print only the keys.
+10. Merge two dictionaries into one.
