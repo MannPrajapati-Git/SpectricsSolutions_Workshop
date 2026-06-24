@@ -46,7 +46,7 @@
 
 books = []
 book_details={}
-borrowed_book_id={}
+borrowed_book_ids = set()
 categories=("Fiction", "Non-Fiction", "Sci-Fi")
 
 def add_book():
@@ -54,7 +54,7 @@ def add_book():
     book_title = input("Enter Book Title : ")
     book_author = input("Enter Book Author : ")
     book_category = input("Enter Book Category : ")
-    book_details = {"id":book_id , "title":book_title , "author":book_author , "category":book_category}
+    book_details = {"id":book_id , "title":book_title , "author":book_author , "category":book_category, "availability": True}
     books.append(book_details)
     print(f"the book has added successfully: {books}")
     print("------------------------------------------------------")
@@ -84,10 +84,12 @@ def borrow_book():
     book_id = input("Enter Book ID : ")
     for book in books:
         if book["id"] == book_id:
-            books.remove(book)
-            list_borrowed_book_id = list(borrowed_book_id)
-            list_borrowed_book_id.append(book_id)
-            print("borrowed book id =",list_borrowed_book_id)
+            if not book.get("availability", True) or book_id in borrowed_book_ids:
+                print("Book is already borrowed.")
+                return
+            book["availability"] = False
+            borrowed_book_ids.add(book_id)
+            print("borrowed book id =", list(borrowed_book_ids))
             print("Book borrowed successfully.")
             return
     else:
@@ -98,8 +100,12 @@ def return_book():
     book_id = input("Enter Book ID : ")
     for book in books:
         if book["id"] == book_id:
-            books.remove(book)
-            print("Book returned successfully.")
+            if book_id in borrowed_book_ids:
+                book["availability"] = True
+                borrowed_book_ids.remove(book_id)
+                print("Book returned successfully.")
+            else:
+                print("Book was not borrowed.")
             return
     else:
         print("Book not found.")
@@ -109,8 +115,13 @@ def view_available_books():
     if not books:
         print("No books found.")
         return
+    available_found = False
     for book in books:
-        print(book)
+        if book.get("availability", True):
+            print(book)
+            available_found = True
+    if not available_found:
+        print("No available books.")
     print("------------------------------------------------------")
 
 while True:
@@ -153,11 +164,4 @@ while True:
 
     else:
         print("Invalid choice. Please try again.")
-        break
-
-
-
-
-
-
-    
+        break 
