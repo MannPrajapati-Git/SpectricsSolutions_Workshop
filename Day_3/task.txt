@@ -1,0 +1,40 @@
+1. Create a 1D NumPy array of numbers from 0 to 9.
+2. Create a 1D NumPy array of all even numbers from 2 to 20.
+3. Create a 2D NumPy array of shape (3, 3) ﬁlled with zeros.
+4. Create a 2D NumPy array of shape (4, 4) ﬁlled with ones.
+5. Create a NumPy array ﬁlled with a speciﬁc number (e.g., 7) of size (3, 3).
+6. Create an array of numbers between 10 and 50 using np.arange().
+7. Create an array of 5 random integers between 1 and 100.
+8. Create an array of 10 random ﬂoats between 0 and 1.
+9. Get the shape, size, and data type of an array.
+10. Convert a Python list [1, 2, 3, 4, 5] into a NumPy array.
+11. Access the 2nd element from a 1D array.
+12. Slice the ﬁrst 3 elements from a 1D array.
+13. Create a 2D array and access a speciﬁc row and column.
+14. Reverse a 1D NumPy array.
+15. Create a 3x3 identity matrix.
+16. Find the maximum and minimum value in a NumPy array.
+17. Find the sum of all elements in a NumPy array.
+18. Calculate the mean, median, and standard deviation of an array.
+19. Multiply all elements of an array by 2 using broadcasting.
+20. Create two arrays and perform element-wise addition, subtraction, multiplication, and division
+21. Create a 1D array of numbers from 0 to 50 and reshape it into a (5, 10) array.
+22. Flatten a 2D array into a 1D array using ravel() or ﬂatten().
+23. Create a 4x4 array and extract the last two rows.
+24. Create a 3x3 array and extract the diagonal elements.
+25. Concatenate two 1D arrays using np.concatenate().
+26. Stack two 2D arrays vertically and horizontally.
+27. Split an array into equal parts using np.split().
+28. Replace all elements greater than 10 with 10 in an array.
+29. Create a 3x3 matrix and ﬁnd its transpose.
+30. Create two 2D arrays and perform matrix multiplication.
+31. Create a 3x3 matrix and ﬁnd its inverse using np.linalg.inv().
+32. Create a 3x3 matrix and ﬁnd its determinant using np.linalg.det().
+33. Sort a NumPy array in ascending and descending order.
+34. Find unique elements in an array using np.unique().
+35. Use boolean indexing to extract elements greater than a certain value.
+36. Create an array and reshape it dynamically using reshape(-1, 1).
+37. Create two arrays and ﬁnd their element-wise power (a ** b).
+38. Create two arrays and ﬁnd their dot product.
+39. Generate a random 3x3 array and normalize it (values between 0 and 1).
+40. Create a 2D array and replace all even numbers with 0 using slicing and conditions.
