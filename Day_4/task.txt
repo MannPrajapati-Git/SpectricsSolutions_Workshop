@@ -1,0 +1,49 @@
+1. Create an array of 5 integers and display all elements.
+2. Store 10 numbers in an array and print them in reverse order.
+3. Find the sum of all elements in an array.
+4. Find the average of array elements.
+5. Find the maximum element in an array.
+6. Find the minimum element in an array.
+7. Count the number of even and odd elements in an array.
+8. Search for a given element in an array.
+9. Count the occurrences of a specific element in an array.
+10. Copy all elements from one array to another.
+11. Merge two arrays into a third array.
+12. Remove duplicate elements from an array.
+13. Sort an array in ascending order.
+14. Sort an array in descending order.
+15. Find the second largest element in an array.
+16. Create a 3×3 matrix and display all elements.
+17. Find the sum of all elements in a matrix.
+18. Find the maximum element in a matrix.
+19. Find the minimum element in a matrix.
+20. Find the sum of each row in a matrix.
+21. Find the sum of each column in a matrix.
+22. Find the sum of the main diagonal elements.
+23. Find the sum of the secondary diagonal elements.
+24. Check whether a matrix is symmetric or not.
+25. Create a 3D array of size 2×2×2 and display all elements.
+26. Find the sum of all elements in a 3D array.
+27. Find the maximum element in a 3D array.
+28. Find the minimum element in a 3D array.
+29. Count the total number of elements in a 3D array.
+30. Find all duplicate elements in an array.
+31. Find all unique elements in an array.
+32. Rotate an array to the left by one position.
+33. Rotate an array to the right by one position.
+34. Rotate an array by N positions.
+35. Find the frequency of each element in an array.
+36. Find the third largest element in an array.
+37. Reverse an array without using another array.
+38. Insert an element at a specific position in an array.
+39. Delete an element from a specific position in an array.
+40. Find the intersection of two arrays.
+41. Find the union of two arrays.
+42. Check whether two arrays are equal.
+43. Split an array into two equal halves.
+44. Find all pairs whose sum equals a given number.
+45. Find the missing number from an array containing 1 to N.
+46. Move all zeros to the end of the array.
+47. Separate positive and negative numbers in an array.
+48. Find the longest increasing sequence in an array.
+49. Implement matrix multiplication using 2D arrays.
